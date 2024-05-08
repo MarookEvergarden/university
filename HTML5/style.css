@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+iframe{
+    align-items: center;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+.content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
