@@ -1,0 +1,35 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td:hover{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    background-image: url('https://media1.tenor.com/m/UZswyok8T-oAAAAC/pride-rainbow.gif');
+}
+
+tr:nth-child(even)
+{
+    background-color: rgb(131, 131, 121);
+}
+
+tr:nth-child(odd)
+{
+    background-color: rgb(21, 138, 132);
+}
+
+
+
+  

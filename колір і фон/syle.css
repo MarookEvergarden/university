@@ -1,0 +1,17 @@
+
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/02/17/55/ai-generated-8229330_640.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+text-align: center;
+color: darkorange;
+background-color: crimson;
+}
+
+.block{
+    border: 5px solid #000;
+}

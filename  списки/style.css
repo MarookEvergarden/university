@@ -1,0 +1,26 @@
+ul.a {
+    list-style-type: circle; /* Bullet style: circle */
+}
+ol.c {
+  list-style-type: upper-roman; /* Marker style: uppercase Roman numerals */
+}
+ul.b {
+    list-style-image: url('icons8-square-30.png'); /* Replace with your image URL */
+}
+ul.d {
+    list-style-position: outside; /* Markers outside the list item */
+  }
+ul.e {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.roman {
+ list-style-type: lower-roman;
+}
+.square {
+ list-style-type: square;
+ margin-left: -2em;
+}
