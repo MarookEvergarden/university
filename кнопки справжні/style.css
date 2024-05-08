@@ -1,0 +1,180 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #2a9d8f;
+    display: flex;
+    flex-direction: row;
+}
+
+div.content {
+    /* display: none; */
+    background-color: blueviolet;
+    width: 100%;
+    min-width: 500px;
+}
+
+div.layout-row {
+    --padding: 4px;
+    /*10px;*/
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    gap: var(--padding);
+    /* Приклад розрахунку розміру поля. Тут не потрібно. Просто приклад */
+    width: calc(100% - var(--padding) * 2);
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px; */
+    padding: var(--padding) var(--padding) 0px var(--padding);
+    /* box-shadow: 10px 5px 5px black;*/
+    /* border-radius: 7px;  */
+}
+
+input[type=text] {
+    padding: 4px;
+    border-radius: 7px;
+    border-style: double;
+    box-shadow: 46px 4px 10px #e84a5f;
+
+}
+
+div.layout-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.container-one {
+    background-color: #155263;
+}
+
+div.container-two {
+    background-color: brown;
+    width: 100%;
+}
+
+div.container-three {
+    background-color: cadetblue;
+    width: 100%;
+}
+
+div.container-four {
+    background-color: blue;
+    width: 100%;
+}
+
+.links-filler {
+    /* background-color: bisque; */
+    background-color: #264653;
+    min-width: 19%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 4px;
+    border-radius: 7px;
+    align-items: center;
+    /* border-right: 1px solid #dbdbdb; */
+    transition: 0.3s;
+    /* justify-content: space-evenly; */
+    padding: 15px 30px 10px 30px;
+}
+
+.links-filler
+
+.link button
+{
+    width: 246.083px;
+    height: 48px;
+
+    /* width: 170%;
+    height:50%; */
+
+    background: #e76f51;
+    border: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    /* padding: 10px; */
+    
+}
+.link
+{
+    flex-grow: 0.1;
+}
+/* .link:nth-child(3)
+{
+    flex-grow: 2;
+} */
+
+
+
+.style-button {
+    width: 25%;
+    top:15%;
+    /* margin-top: 40px; */
+    /* left: 25%; */
+    position: absolute;
+    padding: 10px ;
+    background: #388fa8;
+    color: #fff;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(0, 0, 0.2);
+    /* &:hover
+    {
+        opacity: 1;
+        background-color: #36a1bf;
+    } */
+}
+
+.style-button:hover {   
+    opacity: 1;
+    background-color: #36a1bf;
+}
+
+.style-button:active {
+    background-color: #00CCC0;
+    
+}
+
+.link button:hover
+{
+    opacity: 1;
+    background-color: #f4a261;
+}
+
+.link button:hover
+{
+    background-color: #e9c46a;
+}
+
+.myButton
+{
+    background:    #15d798;
+    background:    linear-gradient(#15d798, #073763);
+    border:        1px  #556699;
+    border-radius: 1000px;
+    box-shadow:    0 2px #444444;
+    padding:       20px 45px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 19px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    transition: background-color 0.3s ease; /* Smooth transition */
+
+}
+.myButton:hover{
+    background-color: #36a1bf;
+    cursor: pointer
+}
+.myButton:active{
+    position: relative;
+}
+
